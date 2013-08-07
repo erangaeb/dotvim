@@ -130,3 +130,8 @@ set noswapfile
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
 call pathogen#infect()
 call pathogen#helptags()
+
+
+" Settings for vim-powerline
+" git submodule add https://github.com/Lokaltog/vim-powerline.git
+set laststatus=2
