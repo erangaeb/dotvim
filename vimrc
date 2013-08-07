@@ -133,14 +133,26 @@ call pathogen#helptags()
 
 
 " Settings for vim-powerline
-" git submodule add https://github.com/Lokaltog/vim-powerline.git
+" git submodule add https://github.com/Lokaltog/vim-powerline.git bundle/powerline
 set laststatus=2
 
 
 " Settings for ctrlp
 " cd ~/.vim/bundle
-" git clone https://github.com/kien/ctrlp.vim.git
+" git submodule add https://github.com/kien/ctrlp.vim.git bundle/ctrlp
 let g:ctrlp_max_height = 30
 set wildignore+=*.pyc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
+
+
+" Setting NERDTree
+" git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
+map <C-b> :NERDTreeToggle<CR>
+
+
+" Python folding
+" mkdir -p ~/.vim/ftplugin
+" wget -O ~/.vim/ftplugin/python_editing.vim
+" http://www.vim.org/scripts/download_script.php?src_id=5492
+set nofoldenable
