@@ -146,6 +146,14 @@ set wildignore+=*_build/*
 set wildignore+=*/coverage/*
 
 
+" Settings for python-mode
+" cd ~/.vim
+" git submodule add https://github.com/klen/python-mode bundle/pythonmode 
+let g:pymode_syntax = 1
+let g:pymode_syntax_builtin_objs = 0
+let g:pymode_syntax_builtin_funcs = 0
+
+
 " Setting NERDTree
 " git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 map <C-b> :NERDTreeToggle<CR>
