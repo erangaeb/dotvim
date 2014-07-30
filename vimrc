@@ -157,6 +157,7 @@ let g:pymode_syntax_builtin_funcs = 0
 " Setting NERDTree
 " git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 map <C-b> :NERDTreeToggle<CR>
+set encoding=utf-8
 
 
 " Python folding
