@@ -10,3 +10,6 @@
 [submodule "bundle/pythonmode"]
 	path = bundle/pythonmode
 	url = https://github.com/klen/python-mode
+[submodule "bundle/vim-latex-live-preview"]
+	path = bundle/vim-latex-live-preview
+	url = https://github.com/xuhdev/vim-latex-live-preview.git

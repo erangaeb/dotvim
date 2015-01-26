@@ -165,3 +165,7 @@ set encoding=utf-8
 " wget -O ~/.vim/ftplugin/python_editing.vim
 " http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+" vim-latex-live-preview settings
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'open -a Preview'
