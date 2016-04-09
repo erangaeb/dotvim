@@ -1,6 +1,6 @@
 ---
 
-#Installation
+#Installation  
 
 ``` 
     git clone git://github.com/erangaeb/dotvim.git ~/.vim  
