@@ -1,13 +1,14 @@
 ---
-#Installation:
 
-```
-	git clone git://github.com/erangaeb/dotvim.git ~/.vim
+#Installation
+
+``` 
+    git clone git://github.com/erangaeb/dotvim.git ~/.vim  
 ```
 
 ---
 
-#Symlinks:
+#Symlinks
 
 ```
 	ln -s ~/.vim/vimrc ~/.vimrc  
