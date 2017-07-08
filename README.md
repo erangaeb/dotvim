@@ -1,12 +1,12 @@
 ---
 
-#Installation  
+# Installation  
 
     git clone git://github.com/erangaeb/dotvim.git ~/.vim  
     
 ---
 
-#Symlinks
+# Symlinks
 
 ```
 	ln -s ~/.vim/vimrc ~/.vimrc  
@@ -15,7 +15,7 @@
 
 ---
 
-#Git submodules
+# Git submodules
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
