@@ -152,6 +152,7 @@ set wildignore+=*/coverage/*
 let g:pymode_syntax = 1
 let g:pymode_syntax_builtin_objs = 0
 let g:pymode_syntax_builtin_funcs = 0
+let g:pymode_python = 'python3'
 
 
 " Setting NERDTree
