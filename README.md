@@ -2,7 +2,7 @@
 
 # dotvim
 
-Vim as `golang` and `python` IDE. Read more from [here](https://medium.com/rahasak/vim-as-my-golang-and-python-ide-a08ac5f0fc15)
+Vim as a `golang` and `python` IDE. Read more from [here](https://medium.com/rahasak/vim-as-my-golang-and-python-ide-a08ac5f0fc15)
 
 ---
 
