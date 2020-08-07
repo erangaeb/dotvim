@@ -6,7 +6,7 @@ vim as a `golang` and `python` IDE. read more from [here](https://medium.com/rah
 
 ---
 
-# install
+# installation
 
 ```
 git clone git://github.com/erangaeb/dotvim.git ~/.vim
