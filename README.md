@@ -1,29 +1,37 @@
 ---
 
-# Installation  
+# dotvim
 
-    git clone git://github.com/erangaeb/dotvim.git ~/.vim  
-    
----
-
-# Symlinks
-
-```
-	ln -s ~/.vim/vimrc ~/.vimrc  
-	ln -s ~/.vim/gvimrc ~/.gvimrc
-	ln -s ~/.vim/ideavimrc ~/.ideavimrc
-```
+vim as `golang` and `python` IDE. read more from [here](https://medium.com/rahasak/vim-as-my-golang-and-python-ide-a08ac5f0fc15)
 
 ---
 
-# Git submodules
-
-Switch to the `~/.vim` directory, and fetch submodules:
+# installation
 
 ```
-	cd ~/.vim  
-	git submodule init  
-	git submodule update
+git clone git://github.com/erangaeb/dotvim.git ~/.vim
+```
+
+---
+
+# symlinks
+
+```
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/ideavimrc ~/.ideavimrc
+```
+
+---
+
+# plugins
+
+switch to the `~/.vim` directory, and install plugins with git submodules:
+
+```
+cd ~/.vim
+git submodule init
+git submodule update
 ```
 
 ---
